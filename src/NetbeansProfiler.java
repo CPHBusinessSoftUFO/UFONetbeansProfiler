@@ -14,8 +14,8 @@ public class NetbeansProfiler {
         }
     }
     
-    public static ArrayList<Integer> arraylistInsert( int size ) {
-        ArrayList<Integer> lst = new ArrayList<>();
+    public static List<Integer> arraylistInsert( int size ) {
+        List<Integer> lst = new ArrayList<>();
         for (int i = 0; i<size; i++)
             lst.add(i);
         return lst;
